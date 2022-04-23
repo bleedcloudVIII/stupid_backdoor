@@ -19,12 +19,3 @@ client.connect(port, host, () => {
         console.log('Connection closed');
     });
 });
-/*
-stream {
-        server {
-                listen 5000;
-                proxy_pass 127.0.0.1:7070;
-                proxy_protocol on;
-        }
-}
- */
